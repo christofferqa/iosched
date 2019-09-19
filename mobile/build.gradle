@@ -62,6 +62,7 @@ android {
             resValue "string",
                     "google_maps_key",
                     "AIzaSyD5jqwKMm1SeoYsW25vxCXfTlhDBeZ4H5c"
+            signingConfig signingConfigs.debug
 
             buildConfigField "String", "MAP_TILE_URL_BASE", "\"https://storage.googleapis.com/io2019-festivus-prod/images/maptiles\""
         }
